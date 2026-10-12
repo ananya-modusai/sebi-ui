@@ -1,0 +1,4 @@
+# Image tars go up as RELEASE ASSETS, never as git objects.
+# Git hard-rejects files over 100MB; release assets allow up to 2GB.
+*.tar
+*.tar.gz
